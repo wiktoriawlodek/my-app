@@ -7,26 +7,29 @@ function Notification() {
   const Wrapper = styled.div`
     display: flex;
     align-items: center;
-    margin-top: 14px;  
-    width: 28%;
+    width: 20%;
+    background-color:black;
     display: flex;
     justify-content:flex-end;
+    /* align-items:right; */
   `;
 
   const Notifications_icons = styled(Notifications_buttons)`
-    margin-right: 10px;
+    margin-right: 15px;
   `;
 
   const Notify_mark = styled.div`
-    width: 20px;
-    height: 20px;
+    width: 17px;
+    height: 17px;
     top: 0;
     right: 0;
-    border-radius: 50%;
-    background-color: #2b56e2;
+    border-radius: 17px;
+    font-size: 13px;
+    background-color: #426bf0;
     color: ${Colors.white};
+
     position: absolute;
-    line-height: normal;
+    /* line-height: normal; */
     text-align: center;
     font-family:Tahoma;
   `;
