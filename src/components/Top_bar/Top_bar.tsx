@@ -3,6 +3,7 @@ import styled from 'styled-components';
 import {Colors} from '../../Styled_components/colors';
 import Dropdown_menu from './Dropdown_menu/Dropdown_menu';
 import Search_input from './Search_input/Search_input';
+import Notifications_icons from './Notifications/Notifications_icons';
 
 
 
@@ -37,6 +38,7 @@ const Top_bar: FC = () => {
             </Logo>
             <Dropdown_menu/>
             <Search_input/>
+            <Notifications_icons/>
         </Wrapper>
      )
 }
