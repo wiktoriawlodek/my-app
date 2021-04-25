@@ -2,8 +2,7 @@ import { FC } from "react";
 import useDropdown from 'react-dropdown-hook';
 import styled from "styled-components";
 import {Colors} from '../../../Styled_components/colors';
-
-// import ToggledMenu from "./ToggledMenu/ToggledMenu";
+import Toggled_menu from "./Toggled_menu/Toggled_menu";
 
 const Wrapper = styled.div`
     width:280px;
@@ -75,7 +74,7 @@ const DropDownMenu: FC = () => {
             </MenuToTogge>
             {dropdownOpen &&
                 <>
-                    {/* <ToggledMenu/> */}
+                    <Toggled_menu/>
                 </> 
             }
         </Wrapper>
