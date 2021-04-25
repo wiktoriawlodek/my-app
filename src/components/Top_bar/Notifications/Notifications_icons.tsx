@@ -8,7 +8,7 @@ function Notification() {
     display: flex;
     align-items: center;
     width: 20%;
-    background-color:black;
+    /* background-color:black; */
     display: flex;
     justify-content:flex-end;
     /* align-items:right; */

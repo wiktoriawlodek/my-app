@@ -9,8 +9,9 @@ const Notifications_buttons = styled.a`
   }
   background-color:${Colors.white};
         :hover {
-          /* background-color:${Colors.light_gray}; */
-          background-color: aqua;
+          background-color: #c1cbd5;
+          width: 35px;
+          height: 35px;
   }  
   position: relative;
   display:flex;

@@ -7,7 +7,7 @@ import Top_bar from '../Top_bar/Top_bar';
 
 const Wrapper = styled.div`
     height: 885px;
-    background-color: #2b2b;
+    background-color: ${Colors.bcg_color};
 `;
 
 
