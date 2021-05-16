@@ -10,7 +10,7 @@ import Notifications_icons from './Notifications/Notifications_icons';
 //div głowny, na komponenty 
 
 const Wrapper = styled.div`
-    background-color: ${Colors.white};
+    background-color: black;
     width: 100%;
     height: 50px;
     display:flex;
