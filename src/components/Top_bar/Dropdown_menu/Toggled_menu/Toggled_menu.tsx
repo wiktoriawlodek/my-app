@@ -20,7 +20,7 @@ const Menu_filter = styled.input`
 `;
 
 const Menu_item = styled.div`
-    background-color: aquamarine;
+    background-color: skyblue;
     width:90%;
     height: 27px;
     padding: 3px 10px;
@@ -60,19 +60,19 @@ const Toggled_menu: FC = () => {
                 <Menu_item>Workspaces</Menu_item>
 
                 {
-                    'Client contract'.toLowerCase().includes(inputText.toLowerCase()) && <Menu_item><img src ="./icons/administration.png"/><a href="administration">Administration</a></Menu_item>
+                    'Client contract'.toLowerCase().includes(inputText.toLowerCase()) && <Menu_item><img src ="./icons/comments.png"/><a href="client_contract">Client contract</a></Menu_item>
                 }
                 {
-                    'Administration'.toLowerCase().includes(inputText.toLowerCase()) && <Menu_item><img src ="./icons/administration.png"/><a href="administration">Administration</a></Menu_item>
+                    'Supplier contract'.toLowerCase().includes(inputText.toLowerCase()) && <Menu_item><img src ="./icons/comments.png"/><a href="supplier_contract">Supplier contract</a></Menu_item>
                 }
                 {
-                    'Administration'.toLowerCase().includes(inputText.toLowerCase()) && <Menu_item><img src ="./icons/administration.png"/><a href="administration">Administration</a></Menu_item>
+                    'Corporate'.toLowerCase().includes(inputText.toLowerCase()) && <Menu_item><img src ="./icons/entities.png"/><a href="corporate">Corporate</a></Menu_item>
                 }
                 {
-                    'Administration'.toLowerCase().includes(inputText.toLowerCase()) && <Menu_item><img src ="./icons/administration.png"/><a href="administration">Administration</a></Menu_item>
+                    'Group Norms'.toLowerCase().includes(inputText.toLowerCase()) && <Menu_item><img src ="./icons/administration.png"/><a href="group_norms">Group Norms</a></Menu_item>
                 }
                 {
-                    'Administration'.toLowerCase().includes(inputText.toLowerCase()) && <Menu_item><img src ="./icons/administration.png"/><a href="administration">Administration</a></Menu_item>
+                    'Real estate contracts'.toLowerCase().includes(inputText.toLowerCase()) && <Menu_item><img src ="./icons/comments.png"/><a href="real_estate_contracts">Real estate contracts</a></Menu_item>
                 }
             </Wrapper>
 	)
